@@ -218,10 +218,11 @@ const mensagemGameOver = {
       mensagemGameOver.w,
       mensagemGameOver.h
     );
-    context.font = '24px "VT323"';
-    context.textAlign = "right";
-    context.fillStyle = "WHITE";
-    context.fillText(`0`, canvas.width - 78, 142);
+    // DESENHAR RESULTADO PLACAR
+    // context.font = '24px "VT323"';
+    // context.textAlign = "right";
+    // context.fillStyle = "WHITE";
+    // context.fillText(`0`, canvas.width - 78, 142);
   },
 };
 
